@@ -18,6 +18,10 @@ kill 1234
 ```
 python3 -m jbot
 ```
+
+
+
+
 ```
 docker cp /home/ql0/set.json qinglong0:/ql/jbot/
 ```
