@@ -1,7 +1,13 @@
 # 备份bot
+"
 docker cp //home/ql0/set.json qinglong:/ql/jbot/
+"
+"
 docker cp //home/ql0/getcookie.py qinglong:/ql/jbot/bot/
+"
+"
 docker exec -it qinglong bash
+"
 ps -ef
 kill 1234
 python3 -m jbot
